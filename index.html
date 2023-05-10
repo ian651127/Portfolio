@@ -1,0 +1,338 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>YU JEN CHANG PORTFPLIO</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="javascript/go.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;500;700&family=Poppins:wght@100;300;500;700&display=swap');
+</style>
+</head>
+
+<body>
+<header>
+  <div class="header-logo"><a onclick="location.href='index.html'"><img src="images/header-logo.png"></a></div>
+</header>
+<div class="container">
+  <div class="go"> <a class="go-text" onclick="scrollToPosition('prtfolio')">Portfolio</a>
+    <div class="go-line"></div>
+    <a class="go-text" onclick="scrollToPosition('about')">About</a> </div>
+  <div class="section-background-none">
+    <div class="section">
+      <div class="section-title"><span id="prtfolio">Portfolio</span></div>
+      <ul class="filter-list" onclick="updateLastSelected(event)">
+        <!-- 作品過濾選單 -->
+        <li class="filter active" data-category="all">All</li>
+        <li class="filter" data-category="website">Website</li>
+        <li class="filter" data-category="app">APP</li>
+        <li class="filter" data-category="brand">Brand</li>
+        <li class="filter" data-category="exhibition">Exhibition</li>
+      </ul>
+      <div class="card-list"><!-- 作品列表 -->
+        <div class="card" data-category="website" onclick="location.href='detail_gorilla_uilibrary.html'">
+          <div class="card-image"><img src="images/portfolio-pic/gorilla_uilibrary/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Gorilla<span class="card-years">2022</span></div>
+            <div class="card-description">UI Library</div>
+          </div>
+          <div class="card-category" >UI component guideline</div>
+        </div>
+        <div class="card" data-category="website" onclick="location.href='detail_gorilla_netstream.html'">
+          <div class="card-image"><img src="images/portfolio-pic/gorilla_netstream/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Gorilla<span class="card-years">2022</span></div>
+            <div class="card-description">NetStream Web Application</div>
+          </div>
+          <div class="card-category">Functional Map | UI Flow | Mockup</div>
+        </div>
+        <div class="card" data-category="website" onclick="location.href='detail_gorilla_apt.html'">
+          <div class="card-image"><img src="images/portfolio-pic/gorilla_apt/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Gorilla<span class="card-years">2022</span></div>
+            <div class="card-description">APT Simulator Web Application</div>
+          </div>
+          <div class="card-category" >Mockup</div>
+        </div>
+        <!-- <div class="card" data-category="website" onclick="location.href='detail_tipc_datagovernance.html'">
+          <div class="card-image"><img src="images/portfolio-pic/tipc_datagovernance/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">TIPC<span class="card-years">2021</span></div>
+            <div class="card-description">Data Governance Web Application</div>
+          </div>
+          <div class="card-category" >Functional Map | UI Flow | Mockup</div>
+        </div>
+        <!-- <div class="card" data-category="website" onclick="location.href='detail_gorilla_nlptagging.html'">
+          <div class="card-image"><img src="images/portfolio-pic/gorilla_nlptagging/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Gorilla<span class="card-years">2021</span></div>
+            <div class="card-description">NLP Tagging Web Application</div>
+          </div>
+          <div class="card-category" > Mockup</div> 
+      </div>-->
+        <div class="card" data-category="brand" onclick="location.href='detail_otoman’s_sticker.html'">
+          <div class="card-image"><img src="images/portfolio-pic/otoman’s_sticker/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Otoman's life<span class="card-years">2021</span></div>
+            <div class="card-description">LINE Stickers</div>
+          </div>
+          <div class="card-category" >Mascot</div>
+        </div>
+        <!-- <div class="card" data-category="website" onclick="location.href='detail_gorilla_configmanager.html'">
+          <div class="card-image"><img src="images/portfolio-pic/gorilla_configmanager/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Gorilla<span class="card-years">2019</span></div>
+            <div class="card-description"> Configuration Manager Web Application</div>
+          </div>
+          <div class="card-category" >Functional Map | UI Flow | Mocku</div>
+        </div>-->
+        <div class="card" data-category="brand" onclick="location.href='detail_character_vi.html'">
+          <div class="card-image"><img src="images/portfolio-pic/character_vi/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Character Capital<span class="card-years">2019</span></div>
+            <div class="card-description">VI</div>
+          </div>
+          <div class="card-category" >Logo | Business card | Letter</div>
+        </div>
+        <!-- <div class="card" data-category="website" onclick="location.href='detail_cib_intelligence.html'">
+          <div class="card-image"><img src="images/portfolio-pic/cib_intelligence/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Taipei CIB <span class="card-years">2019</span></div>
+            <div class="card-description">Intelligence Analysis Web Application</div>
+          </div>
+          <div class="card-category" >Functional Map | UI Flow | Mockup</div>
+        </div> -->
+        <div class="card" data-category="app" onclick="location.href='detail_nb_linemenu.html'">
+          <div class="card-image"><img src="images/portfolio-pic/nb_linemenu/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">NB Taiwan<span class="card-years">2018</span></div>
+            <div class="card-description">LINE Official Account Menu</div>
+          </div>
+          <div class="card-category" >Mockup</div>
+        </div>
+        <div class="card" data-category="website" onclick="location.href='detail_tsa_flightdisplay.html'">
+          <div class="card-image"><img src="images/portfolio-pic/tsa_flightdisplay/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Taipei Songshan Airport <span class="card-years">2018</span></div>
+            <div class="card-description">International Flight Display Board </div>
+          </div>
+          <div class="card-category" >Mockup</div>
+        </div>
+        <div class="card" data-category="app" onclick="location.href='detail_gorilla_mobilelearning.html'">
+          <div class="card-image"><img src="images/portfolio-pic/gorilla_mobilelearning/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Gorilla <span class="card-years">2017</span></div>
+            <div class="card-description">Mobile Learning APP</div>
+          </div>
+          <div class="card-category" >Functional Map | UI Flow | Mockup</div>
+        </div>
+        <div class="card" data-category="website" onclick="location.href='detail_gorilla_smartretail.html'">
+          <div class="card-image"><img src="images/portfolio-pic/gorilla_smartretail/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Gorilla <span class="card-years">2017</span></div>
+            <div class="card-description">Smart Retail Website </div>
+          </div>
+          <div class="card-category" >Mockup</div>
+        </div>
+        <div class="card" data-category="app"  onclick="location.href='detail_fet_furo.html'">
+          <div class="card-image"><img src="images/portfolio-pic/fet_furo/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">FET <span class="card-years">2017</span></div>
+            <div class="card-description">FURo-D Camera APP</div>
+          </div>
+          <div class="card-category">Mockup</div>
+        </div>
+        <div class="card" data-category="app" onclick="location.href='detail_pca_salesapp.html'">
+          <div class="card-image"><img src="images/portfolio-pic/pca_salesapp/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">PCA Life <span class="card-years">2016</span></div>
+            <div class="card-description">Sales APP </div>
+          </div>
+          <div class="card-category" >Mockup</div>
+        </div>
+        <div class="card" data-category="website" onclick="location.href='detail_allwin_casino.html'">
+          <div class="card-image"><img src="images/portfolio-pic/allwin_casino/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Allwin | 2016 <span class="card-years">2016</span></div>
+            <div class="card-description">Live Casino Website</div>
+          </div>
+          <div class="card-category" >Mockup</div>
+        </div>
+        <div class="card" data-category="app" onclick="location.href='detail_gb_casino.html'">
+          <div class="card-image"><img src="images/portfolio-pic/gb_casino/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">GB <span class="card-years">2016</span></div>
+            <div class="card-description">Live Casino APP</div>
+          </div>
+          <div class="card-category" >Mockup</div>
+        </div>
+        <div class="card" data-category="app" onclick="location.href='detail_asus_zenui.html'">
+          <div class="card-image"><img src="images/portfolio-pic/asus_zenui/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">ASUS <span class="card-years">2015</span></div>
+            <div class="card-description">ZenUI Theme</div>
+          </div>
+          <div class="card-category" >Androids Theme</div>
+        </div>
+        <div class="card" data-category="app" onclick="location.href='detail_yuanta_icare.html'">
+          <div class="card-image"><img src="images/portfolio-pic/yuanta_icare/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Yuanta Life <span class="card-years">2015</span></div>
+            <div class="card-description">iCare APP </div>
+          </div>
+          <div class="card-category" >Mockup</div>
+        </div>
+        <div class="card" data-category="brand">
+          <div class="card-image"><img src="images/portfolio-pic/yunlin_mascot/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Yunlin Mascot Design Competition <span class="card-years">2014</span></div>
+            <div class="card-description"> Gold Award / Excellent Work </div>
+          </div>
+          <div class="card-category" onclick="location.href='detail_yunlin_mascot.html'">Mascot</div>
+        </div>
+        <div class="card" data-category="exhibition" onclick="location.href='detail_tgm_exhibition.html'">
+          <div class="card-image"><img src="images/portfolio-pic/tgm_exhibition/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Taiwan Gold Museum <span class="card-years">2014</span></div>
+            <div class="card-description">Internation Metal Crafts Exhibition</div>
+          </div>
+          <div class="card-category" >Key visual design | Poster | DM </div>
+        </div>
+        <div class="card" data-category="exhibition" onclick="location.href='detail_ntulibrary_yeh.html'">
+          <div class="card-image"><img src="images/portfolio-pic/ntulibrary_yeh/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">NTU Library <span class="card-years">2014</span></div>
+            <div class="card-description">Exhibition of Professor Yeh Chia-eying </div>
+          </div>
+          <div class="card-category" >Key visual design | Poster | DM</div>
+        </div>
+        <div class="card" data-category="exhibition"  onclick="location.href='detail_ntulibrary_kanaseki.html'">
+          <div class="card-image"><img src="images/portfolio-pic/ntulibrary_kanaseki/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">NTU Library <span class="card-years">2014</span></div>
+            <div class="card-description">Exhibition of Professor Kanaseki Takeo</div>
+          </div>
+          <div class="card-category">Key visual design | Poster | DM</div>
+        </div>
+        <div class="card" data-category="website" onclick="location.href='detail_naturalmammy_official.html'">
+          <div class="card-image"><img src="images/portfolio-pic/naturalmammy_official/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Natural Mammy <span class="card-years">2014</span></div>
+            <div class="card-description">Official Website</div>
+          </div>
+          <div class="card-category" >Mockup</div>
+        </div>
+        <div class="card" data-category="website"  onclick="location.href='detail_beiju_official.html'">
+          <div class="card-image"><img src="images/portfolio-pic/beiju_official/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">beiju-OMUSUBI <span class="card-years">2014</span></div>
+            <div class="card-description">Official Website</div>
+          </div>
+          <div class="card-category">Mockup</div>
+        </div>
+        <div class="card" data-category="brand" onclick="location.href='detail_tripleh_vi.html'">
+          <div class="card-image"><img src="images/portfolio-pic/tripleh_vi/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Triple H Equity Investment<span class="card-years">2014</span></div>
+            <div class="card-description">VI</div>
+          </div>
+          <div class="card-category" >Logo | Business card</div>
+        </div>
+        <div class="card" data-category="brand" onclick="location.href='detail_tty_corriborl.html'">
+          <div class="card-image"><img src="images/portfolio-pic/tty_corriborl/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">TTY Biopharm <span class="card-years">2014</span></div>
+            <div class="card-description">CorridorI </div>
+          </div>
+          <div class="card-category" >Signboard</div>
+        </div>
+        <div class="card" data-category="brand" onclick="location.href='detail_serena_package.html'">
+          <div class="card-image"><img src="images/portfolio-pic/serena_package/img_preview.png" alt="Image 1"></div>
+          <div class="card-body">
+            <div class="card-title">Serena Foods<span class="card-years">2012</span></div>
+            <div class="card-description">Egg Rolls Package / Gift Box</div>
+          </div>
+          <div class="card-category" > Package </div>
+        </div>
+        
+        <!----> 
+        
+        <!----> 
+      </div>
+    </div>
+    <div class="section-background">
+      <div class="section">
+        <div class="section-title"><span id="about"></span>About</div>
+        <div class = "text">
+          <div class="block-title">Work Experience</div>
+          <div class = "row">
+            <div class = "date">2015.02 ~ Present</div>
+            <div class = "event">Gorilla Technology Group / Sr. UI Designer</div>
+          </div>
+          <div class = "row">
+            <div class = "date">2014.12 ~ 2015.11</div>
+            <div class = "event">Allwin Global Technology Limited / UI Design team leader</div>
+          </div>
+          <div class = "row">
+            <div class = "date">2013.08 ~ 2014.12</div>
+            <div class = "event">Naked Design / Co-Founder &amp; Designer</div>
+          </div>
+          <div class = "row">
+            <div class = "date">2006.04 ~ 2013.08</div>
+            <div class = "event">Yuen Foong Paper / Senior Designer</div>
+          </div>
+          <div class="block-title">Education</div>
+          <div class = "row">
+            <div class = "date">2000.09 ~ 2004.06</div>
+            <div class = "event">University of Taipei</div>
+          </div>
+          <div class="block-title">Awards</div>
+          <div class = "row">
+            <div class = "date">2014.12</div>
+            <div class = "event">Yunlin Mascot Design Competition Gold Award</div>
+          </div>
+          <div class="block-title">Skill</div>
+          <div class = "row">
+            <div class = "event">Flow chart / Wireframing / Interaction design / Visual design</div>
+          </div>
+          <div class="block-title">Tools</div>
+          <div class = "row">
+            <div class = "event">Figma / Sketch / InvisionApp / Adobe Photoshop / Adobe Illustrator / Adobe InDesign</div>
+          </div>
+          <div class="block-title">Contact</div>
+          <div class = "row">
+            <div class = "date">E-Mail</div>
+            <div class = "event">ian651127@yahoo.com.tw</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="copyright" >Copyright © 2014 Yu Jen Chang. All rights reserved.</div>
+  </footer>
+</div>
+<script><!-- 作品過濾JS -->
+  function filterCards(category) {
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+      if (category === 'all' || card.dataset.category === category) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  const filters = document.querySelectorAll('.filter');
+  filters.forEach(filter => {
+    filter.addEventListener('click', function() {
+      filters.forEach(f => f.classList.remove('active'));
+      this.classList.add('active');
+      const category = this.dataset.category;
+      filterCards(category);
+    });
+  });
+    </script>
+</body>
+</html>
