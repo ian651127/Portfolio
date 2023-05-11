@@ -102,7 +102,7 @@ header {
   margin: 16px 0;
   padding: 16px 0;
   box-sizing: border-box;
-  background-image: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)2px, transparent 0, transparent 6px);
+  background-image: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)2px, transparent 0, transparent 6px);
 }
 .section {
   margin-top: 32px;
@@ -228,7 +228,7 @@ header {
   padding: 16px;
   height: 320px;
   transform: translate(0px, -320px);
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.75);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   box-sizing: border-box;
