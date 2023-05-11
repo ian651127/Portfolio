@@ -337,6 +337,7 @@ footer {
   margin: 0;
   padding: 0;
   background-color: rgba(0, 0, 0, 1);
+  box-sizing: border-box;
 }
 .copyright {
   font-size: 12px;
