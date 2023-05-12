@@ -70,6 +70,7 @@ header {
 }
 .logo-svg {
   height: 52px;
+  cursor: pointer;
 }
 .logo-text {
   display: inline-block;
@@ -88,6 +89,16 @@ header {
   line-height: 16px;
   margin: 0;
   padding: 0;
+}
+.header-icon {
+  display: inline-block;
+  position: absolute;
+  /*Logo垂直置中*/
+  vertical-align: top;
+  margin-top: 32px;
+  right: 24px;
+  height: 52px;
+  cursor: pointer;
 }
 .section-title {
   font-family: 'Poppins', sans-serif;
