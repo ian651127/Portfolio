@@ -11,6 +11,8 @@ body {
   background-color: #EEEDE9;
   font-size: 16px;
   font-weight: 300;
+  width: 100vw;
+  height: 100vh;
 }
 h1 {
   font-size: 4rem;
@@ -48,7 +50,7 @@ header {
   padding-right: 24px;
   border-bottom: 1px solid #000;
   z-index: 999;
-  box-sizing: border-box; /* backdrop-filter: blur(8px);*/
+  /* backdrop-filter: blur(8px);*/
 }
 .header-logo {
   display: inline-block;
@@ -92,7 +94,6 @@ header {
   font-size: 4rem;
   font-weight: 100;
   line-height: 4rem;
- 
   padding: 0 8px;
 }
 .block-title {
@@ -110,17 +111,14 @@ header {
 }
 .container {
   width: 100%; /*全螢幕寬*/
-  box-sizing: border-box;
 }
 .section-background-none {
   margin: 16px 0;
   padding: 16px 0;
-  box-sizing: border-box;
 }
 .section-background {
   margin: 16px 0;
   padding: 16px 0;
-  box-sizing: border-box;
   background-image: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)2px, transparent 0, transparent 6px);
 }
 .section {
@@ -129,7 +127,6 @@ header {
   margin-bottom: 32px;
   margin-left: auto;
   max-width: 1408px;
-  box-sizing: border-box;
 }
 /*卡片過濾*/
 .filter-list {
@@ -164,7 +161,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  box-sizing: border-box;
 }
 .card {
   height: 320px;
@@ -197,7 +193,7 @@ header {
   width: 100%;
   height: 240px;
   overflow: hidden; /* 圖片超出容器部分隐藏 */
-  backgroung-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .card-image img {
   height: 100%;
@@ -242,7 +238,6 @@ header {
   background-color: rgba(255, 255, 255, 0.75);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  box-sizing: border-box;
 }
 .card:hover .card-category {
   opacity: 1;
@@ -289,7 +284,6 @@ header {
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
 }
 .block-subtitle {
   font-family: 'Poppins', sans-serif;
@@ -303,9 +297,7 @@ header {
 .block-description {
   padding: 0 8px;
 }
-.section-image {
- 
-}
+.section-image {}
 .section-image > img {
   width: 100%; /*border-radius: 8px;*/
 }
@@ -313,8 +305,6 @@ header {
   width: calc(50% - 10px);
   display: inline-block;
   margin-right: 8px;
-  padding: 0;
-  box-sizing: border-box;
   vertical-align: top;
 }
 .section-image2-1 > img {
@@ -324,8 +314,6 @@ header {
   width: calc(50% - 10px);
   display: inline-block;
   margin-left: 8px;
-  padding: 0;
-  box-sizing: border-box;
 }
 .section-image2-2 > img {
   width: 100%; /*border-radius: 8px;*/
@@ -338,7 +326,6 @@ footer {
   align-items: center;
   position: absolute;
   background-color: rgba(48, 48, 48, 1);
-  box-sizing: border-box;
 }
 .copyright {
   font-size: 12px;
@@ -361,9 +348,9 @@ footer {
   display: inline-block;
   margin: 0 4px;
   padding: 0;
-  width: 96px;
+  width: 72px;
   height: 4px;
-  verticle-align: middle;
+  vertical-align: middle;
   border-top: 1px solid black;
 }
 .go-text {
