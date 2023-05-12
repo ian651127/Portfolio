@@ -65,6 +65,31 @@ header {
   /*Logo垂直置中*/
   vertical-align: top;
   margin-top: 22px;
+  height: 52px;
+  /*Try*/
+  border: 1px solid red;
+  width: 100%
+}
+.logo-svg {
+  height: 52px;
+}
+.logo-text {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 36px;
+  margin: 0 16px;
+  padding: 0;
+  vertical-align: top;
+}
+.logo-text > p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
 }
 .section-title {
   font-family: 'Poppins', sans-serif;
