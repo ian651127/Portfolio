@@ -59,6 +59,14 @@ header {
     height: 52px;
     width: 240px;
 }
+#header-logo {
+    display: inline-block;
+    /*Logo垂直置中*/
+    vertical-align: top;
+    margin-top: 22px;
+    height: 52px;
+    width: 240px;
+}
 .logo-svg {
     height: 52px;
     cursor: pointer;
@@ -121,10 +129,7 @@ header {
     background-image: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)2px, transparent 0, transparent 6px);
 }
 .section {
-    margin-top: 32px;
-    margin-right: auto;
-    margin-bottom: 32px;
-    margin-left: auto;
+    margin: 32px auto;
     max-width: 1408px;
     overflow: hidden;
 }
@@ -284,6 +289,14 @@ header {
     transition: opacity 0.3s ease-in-out;
     background-color: rgba(0, 0, 0, 0.05); /*border-radius: 4px;*/
 }
+.section-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 32px auto;
+    max-width: 1408px;
+    overflow: hidden;
+}
 .section-text {
     max-width: 640px;
     margin-left: auto;
@@ -301,27 +314,49 @@ header {
 .block-description {
     padding: 0 8px;
 }
-.section-image {
-}
-.section-image > img {
-    width: 100%; /*border-radius: 8px;*/
-}
-.section-image2-1 {
-    width: calc(50% - 10px);
-    display: inline-block;
-    margin-right: 8px;
+.section-image-1 {
     vertical-align: top;
 }
-.section-image2-1 > img {
+.section-image-1 > img {
     width: 100%; /*border-radius: 8px;*/
 }
-.section-image2-2 {
-    width: calc(50% - 10px);
-    display: inline-block;
-    margin-left: 8px;
+.section-image-2 {
+    vertical-align: top;
+    width: 50%;
 }
-.section-image2-2 > img {
+.section-image-2 > img {
     width: 100%; /*border-radius: 8px;*/
+}
+.section-image-app {
+    vertical-align: top;
+}
+.section-image-app > img {
+    width: 100%; /*border-radius: 8px;*/
+}
+
+/* 卡片RWD */
+@media screen and (max-width: 575px) {
+.section-image-app {
+    width: 50%;
+}
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+.section-image-app {
+    width: 50%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.section-image-app {
+    width: calc(25% - 0px);
+}
+}
+
+@media screen and (min-width: 992px) {
+.section-image-app {
+    width: calc(25% - 0px);
+}
 }
 footer {
     width: 100%; /*全螢幕寬*/
