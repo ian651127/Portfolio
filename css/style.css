@@ -215,7 +215,7 @@ header {
     height: 80px;
     overflow: hidden; /* 文字超出容器部分隐藏 */
 }
-.card-title {
+.card-client {
     font-size: 0.875rem;
     color: #000;
     line-height: 1.4rem;
@@ -223,12 +223,12 @@ header {
     margin: 4px 0;
     padding: 0;
 }
-.card-years {
+.card-release {
     color: rgba(0, 0, 0, 1);
     font-weight: 300;
     margin-left: 8px;
 }
-.card-description {
+.card-type {
     font-size: 0.875rem;
     color: #000;
     line-height: 1.4rem;
@@ -236,7 +236,7 @@ header {
     margin: 4px 0;
     padding: 0;
 }
-.card-category {
+.card-role {
     font-size: 1rem;
     color: #000;
     line-height: 1.5rem;
@@ -248,11 +248,11 @@ header {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
-.card:hover .card-category {
+.card:hover .card-role {
     opacity: 1;
     cursor: pointer;
 }
-/*.card-category span {
+/*.card-role span {
   padding: 8px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
