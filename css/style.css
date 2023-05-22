@@ -174,7 +174,7 @@ header {
 }
 
 /* 卡片RWD */
-@media screen and (max-width: 575px) {
+/*@media screen and (max-width: 575px) {
 .card {
     width: 100%;
 }
@@ -184,7 +184,13 @@ header {
 .card {
     width: calc(50% - 16px);
 }
+}*/
+
+@media screen and (max-width: 767px) {
+.card {
+    width: calc(50% - 16px);
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 .card {
