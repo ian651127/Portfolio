@@ -106,15 +106,18 @@ header {
 .block-client {
     font-family: 'Poppins', sans-serif;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 300;
     margin-top: 32px;
     margin-bottom: 8px;
     padding: 0 8px;
+	color: rgba(0, 0, 0, 1)
 }
 .block-release {
     font-family: 'Poppins', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
     font-weight: 300;
     padding: 0 16px;
+	
 }
 .container {
     width: 100%; /*全螢幕寬*/
@@ -145,7 +148,6 @@ header {
     color: #000;
     line-height: 1.5rem;
     font-weight: 300;
-    width: 72px;
     padding: 0 16px;
     border-left: 1px solid #000;
     transition: 0.3s;
@@ -211,28 +213,28 @@ header {
     transform: translate(-50%, -50%); /* 圖片座標改為中心點 */
 }
 .card-body {
-    padding: 8px 0 ;
+    padding: 8px 0;
     height: 80px;
     overflow: hidden; /* 文字超出容器部分隐藏 */
 }
 .card-client {
     font-size: 0.875rem;
-    color: #000;
+    color: rgba(0, 0, 0, 1);
     line-height: 1.2rem;
-    font-weight: 700;
+    font-weight: 300;
     margin: 4px 0;
     padding: 0;
 }
 .card-release {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 0.5);
     font-weight: 300;
     margin-left: 8px;
 }
 .card-type {
-    font-size: 1rem;
+    font-size: 0.875rem;
     color: #000;
-    line-height: 1.4rem;
-    font-weight: 700;
+    line-height: 1.2rem;
+    font-weight: 500;
     margin: 4px 0;
     padding: 0;
 }
@@ -244,7 +246,7 @@ header {
     font-size: 1rem;
     color: #000;
     line-height: 1.5rem;
-    font-weight: 700;
+    font-weight: 300;
     padding: 16px;
     background-color: rgba(255, 255, 255, 0.75);
     opacity: 0;
@@ -315,6 +317,7 @@ header {
 }
 .block-role {
     padding: 0 8px;
+	font-weight: 300;
 }
 .section-image-1 {
     vertical-align: top;
