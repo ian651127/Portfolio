@@ -269,12 +269,12 @@ header {
 /*.row:hover {
   background-color: rgba(0, 0, 0, 0.05);
 }*/
-.date {
+.key {
     display: inline-block;
     padding: 0 8px;
     width: 148px;
 }
-.event {
+.value {
     display: inline-block;
     padding: 0 8px;
 }
