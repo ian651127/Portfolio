@@ -102,6 +102,7 @@ header {
     font-weight: 100;
     line-height: 4rem;
     padding: 0 8px;
+    margin-bottom: 32px;
 }
 .block-label {
     font-family: 'Poppins', sans-serif;
@@ -110,14 +111,14 @@ header {
     margin-top: 32px;
     margin-bottom: 8px;
     padding: 0 8px;
-	color: rgba(0, 0, 0, 1)
+    color: rgba(0, 0, 0, 1)
 }
 .block-release {
     font-family: 'Poppins', sans-serif;
-	color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     font-weight: 300;
     padding: 0 16px;
-	
+    
 }
 .container {
     width: 100%; /*全螢幕寬*/
@@ -176,27 +177,27 @@ header {
 
 /* 卡片RWD */
 @media screen and (max-width: 575px) {
-.card {
-    width: calc(100% - 0px);
-}
+    .card {
+        width: calc(100% - 0px);
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-.card {
-    width: calc(50% - 16px);
-}
+    .card {
+        width: calc(50% - 16px);
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-.card {
-    width: calc(33.33% - 16px);
-}
+    .card {
+        width: calc(33.33% - 16px);
+    }
 }
 
 @media screen and (min-width: 992px) {
-.card {
-    width: calc(25% - 16px);
-}
+    .card {
+        width: calc(25% - 16px);
+    }
 }
 .card-image {
     position: relative;
@@ -318,7 +319,7 @@ header {
 }
 .block-role {
     padding: 0 8px;
-	font-weight: 300;
+    font-weight: 300;
 }
 .section-image-1 {
     vertical-align: top;
@@ -342,27 +343,27 @@ header {
 
 /* Detail RWD */
 @media screen and (max-width: 575px) {
-.section-image-app {
-    width: 50%;
-}
+    .section-image-app {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-.section-image-app {
-    width: 50%;
-}
+    .section-image-app {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-.section-image-app {
-    width: calc(25% - 0px);
-}
+    .section-image-app {
+        width: calc(25% - 0px);
+    }
 }
 
 @media screen and (min-width: 992px) {
-.section-image-app {
-    width: calc(25% - 0px);
-}
+    .section-image-app {
+        width: calc(25% - 0px);
+    }
 }
 footer {
     width: 100%; /*全螢幕寬*/
