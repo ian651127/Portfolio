@@ -273,6 +273,7 @@ header {
     display: inline-block;
     padding: 0 8px;
     width: 148px;
+    font-weight: 300;
 }
 .value {
     display: inline-block;
@@ -409,6 +410,6 @@ footer {
 .go-text:hover {
     background-color: rgba(0, 0, 0, 0.05); /*border-radius: 4px;*/
 }
-.Backtotop {
+#backtotop {
     text-align: center;
 }
