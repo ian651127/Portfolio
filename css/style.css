@@ -219,14 +219,6 @@ header {
     height: 80px;
     overflow: hidden; /* 文字超出容器部分隐藏 */
 }
-.card-client {
-    font-size: 0.875rem;
-    color: rgba(0, 0, 0, 1);
-    line-height: 1.2rem;
-    font-weight: 300;
-    margin: 4px 0;
-    padding: 0;
-}
 .card-release {
     font-weight: 300;
 }
@@ -285,7 +277,7 @@ header {
 .detail-key {
     display: inline-block;
     padding: 0 8px;
-    width: 96px;
+    width: 80px;
     font-weight: 300;
 }
 .detail-value {
