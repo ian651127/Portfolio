@@ -103,7 +103,7 @@ header {
     line-height: 4rem;
     padding: 0 8px;
     margin-bottom: 64px;
-    color:rgba(0, 0, 0, 0.25);
+    color:rgba(0, 0, 0, 0.5);
 }
 .block-label {
     font-family: 'Poppins', sans-serif;
