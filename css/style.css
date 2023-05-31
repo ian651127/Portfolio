@@ -230,7 +230,7 @@ header {
     color: rgba(0, 0, 0, 0.5);
     font-weight: 300;
 }
-.card-type {
+.card-project-name {
     font-size: 0.875rem;
     color: #000;
     line-height: 1.2rem;
@@ -238,7 +238,7 @@ header {
     margin: 4px 0;
     padding: 0;
 }
-.card-role {
+.card-item {
     position: absolute;
     top: 0;
     width: 100%;
@@ -252,11 +252,11 @@ header {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
-.card:hover .card-role {
+.card:hover .card-item {
     opacity: 1;
     cursor: pointer;
 }
-/*.card-role span {
+/*.card-item span {
   padding: 8px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -269,16 +269,28 @@ header {
 /*.row:hover {
   background-color: rgba(0, 0, 0, 0.05);
 }*/
-.key {
+
+.index-key {
     display: inline-block;
     padding: 0 8px;
     width: 148px;
     font-weight: 300;
 }
-.value {
+.index-value {
     display: inline-block;
     padding: 0 8px;
 }
+.detail-key {
+    display: inline-block;
+    padding: 0 8px;
+    width: 148px;
+    font-weight: 300;
+}
+.detail-value {
+    display: inline-block;
+    padding: 0 8px;
+}
+
 /*Page:Detail*/
 .back {
     display: inline-block;
