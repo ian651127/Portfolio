@@ -240,9 +240,10 @@ header {
     line-height: 1.5rem;
     font-weight: 300;
     padding: 16px;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.5);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    backdrop-filter: blur(8px);
 }
 .card:hover .card-item {
     opacity: 1;
