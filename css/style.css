@@ -8,8 +8,8 @@
 }
 
 ::selection {
-	background: #000;
-	color: #fff;
+    background: #000;
+    color: #fff;
 }
 
 body {
@@ -257,11 +257,6 @@ header {
     /* 文字超出容器部分隐藏 */
 }
 
-.card-release {
-    font-weight: 300;
-    color: rgba(48, 48, 48, 1);
-}
-
 .card-project-name {
     font-size: 0.875rem;
     color: #000;
@@ -271,17 +266,22 @@ header {
     padding: 0;
 }
 
+.card-release {
+    font-weight: 300;
+    color: rgba(48, 48, 48, 1);
+}
+
 .card-item {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     font-size: 1rem;
-    color: #000;
+    color: #ffffff;
     line-height: 1.5rem;
     font-weight: 700;
     padding: 16px;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(0, 0, 0, 0.75);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     backdrop-filter: blur(8px);
