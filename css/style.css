@@ -394,6 +394,7 @@ header {
 
 .section-image-1 {
     vertical-align: top;
+    width: 100%;
 }
 
 .section-image-1>img {
