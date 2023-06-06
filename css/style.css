@@ -395,6 +395,7 @@ header {
 .section-image-1 {
     vertical-align: top;
     width: 100%;
+    text-align: center;
 }
 
 .section-image-1>img {
@@ -405,6 +406,7 @@ header {
 .section-image-2 {
     vertical-align: top;
     width: 50%;
+    text-align: center;
 }
 
 .section-image-2>img {
@@ -418,6 +420,18 @@ header {
 
 .section-image-app>img {
     width: 100%;
+    /*border-radius: 8px;*/
+}
+
+.section-image-gif {
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+}
+
+.section-image-gif>img {
+    width: 90%;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25);
     /*border-radius: 8px;*/
 }
 
