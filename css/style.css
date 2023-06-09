@@ -67,7 +67,6 @@ header {
     padding: 0 24px;
     border-bottom: 1px solid #082F7E;
     z-index: 999;
-    overflow: hidden;
     /* backdrop-filter: blur(8px);*/
 }
 
@@ -163,7 +162,6 @@ header {
 .section {
     margin: 32px auto;
     max-width: 1408px;
-    overflow: hidden;
 }
 
 /*卡片過濾*/
@@ -240,7 +238,6 @@ header {
     position: relative;
     width: 100%;
     aspect-ratio: 16 / 9;
-    overflow: hidden;
     /* 圖片超出容器部分隐藏 */
     background-color: rgba(0, 0, 0, 0.05);
 }
@@ -259,7 +256,6 @@ header {
 .card-body {
     padding: 8px 0;
     height: 80px;
-    overflow: hidden;
     /* 文字超出容器部分隐藏 */
 }
 
@@ -369,7 +365,7 @@ header {
     justify-content: flex-start;
     margin: 32px auto;
     max-width: 1408px;
-    overflow: hidden;
+
 }
 
 .section-text {
@@ -381,31 +377,37 @@ header {
 .section-image-1 {
     vertical-align: top;
     width: 100%;
+    padding: 32px 0;
     text-align: center;
 }
 
 .section-image-1>img {
-    width: 100%;
+    width: 90%;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
     /*border-radius: 8px;*/
 }
 
 .section-image-2 {
     vertical-align: top;
     width: 50%;
+    padding: 32px 0;
     text-align: center;
 }
 
 .section-image-2>img {
-    width: 100%;
+    width: 90%;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
     /*border-radius: 8px;*/
 }
 
 .section-image-app {
     vertical-align: top;
+    padding: 32px 0;
 }
 
 .section-image-app>img {
-    width: 100%;
+    width: 90%;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
     /*border-radius: 8px;*/
 }
 
