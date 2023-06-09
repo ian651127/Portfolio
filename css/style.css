@@ -8,14 +8,14 @@
 }
 
 ::selection {
-    background: #000;
+    background: #fd591f;
     color: #fff;
 }
 
 body {
     font-family: 'Noto Sans TC', sans-serif;
-    color: #000;
-    background-color: #EEEDE9;
+    color: #808080;
+    background-color: #ffffff;
     font-size: 16px;
     font-weight: 300;
     width: 100vw;
@@ -64,7 +64,7 @@ header {
     height: 96px;
     Top: 0;
     padding: 0 24px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #082F7E;
     z-index: 999;
     overflow: hidden;
     /* backdrop-filter: blur(8px);*/
@@ -87,6 +87,7 @@ header {
 .logo-text {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
+    color: #082F7E;
     font-size: 24px;
     font-weight: 200;
     line-height: 36px;
@@ -108,7 +109,11 @@ header {
     vertical-align: top;
     margin-top: 32px;
     right: 24px;
-    height: 52px;
+    cursor: pointer;
+}
+
+.icon-in {
+    height: 32px;
     cursor: pointer;
 }
 
@@ -119,7 +124,7 @@ header {
     line-height: 4rem;
     padding: 0 8px;
     margin-bottom: 64px;
-    color: rgba(0, 0, 0, 0.5);
+    color: #082F7E;
 }
 
 .block-label {
@@ -129,12 +134,11 @@ header {
     margin-top: 32px;
     margin-bottom: 8px;
     padding: 0 8px;
-    color: rgba(0, 0, 0, 1)
+    color: #082F7E;
 }
 
 .block-release {
     font-family: 'Poppins', sans-serif;
-    color: rgba(0, 0, 0, 0.5);
     font-weight: 300;
     padding: 0 16px;
 }
@@ -151,7 +155,8 @@ header {
 
 .section-background {
     padding: 16px 0;
-    background-image: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)2px, transparent 0, transparent 6px);
+    background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1), rgba(8, 47, 126, 0.1)6px, transparent 0, transparent 6px);
+
 }
 
 .section {
@@ -170,11 +175,11 @@ header {
 
 .filter-list>li {
     font-size: 1rem;
-    color: #000;
+    color: #fd591f;
     line-height: 1.5rem;
     font-weight: 300;
     padding: 0 16px;
-    border-left: 1px solid #000;
+    border-left: 1px solid #fd591f;
     transition: 0.3s;
     cursor: pointer;
     width: auto;
@@ -185,7 +190,7 @@ header {
 }
 
 .filter-list>li:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(253, 89, 31, 0.25);
 }
 
 .filter.active {
@@ -236,7 +241,7 @@ header {
     aspect-ratio: 16 / 9;
     overflow: hidden;
     /* 圖片超出容器部分隐藏 */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .card-image img {
@@ -259,7 +264,7 @@ header {
 
 .card-project-name {
     font-size: 0.875rem;
-    color: #000;
+    color: #082F7E;
     line-height: 1.2rem;
     font-weight: 500;
     margin: 4px 0;
@@ -268,7 +273,6 @@ header {
 
 .card-release {
     font-weight: 300;
-    color: rgba(48, 48, 48, 1);
 }
 
 .card-item {
@@ -277,17 +281,17 @@ header {
     width: 100%;
     height: 100%;
     font-size: 1rem;
-    color: #ffffff;
+    color: #fff;
     line-height: 1.5rem;
     font-weight: 700;
     padding: 16px;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(253, 89, 31, 0.75);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     backdrop-filter: blur(8px);
 }
 
-.card:hover .card-item {
+.card-image:hover .card-item {
     opacity: 1;
     cursor: pointer;
 }
@@ -313,7 +317,6 @@ header {
     padding: 0 8px;
     width: 160px;
     font-weight: 500;
-    color: rgba(48, 48, 48, 1);
     ;
 }
 
@@ -321,7 +324,6 @@ header {
     display: inline-block;
     padding: 0 8px;
     font-weight: 300;
-    color: rgba(48, 48, 48, 1);
     ;
 
 }
@@ -331,7 +333,6 @@ header {
     padding: 0 8px;
     width: 80px;
     font-weight: 500;
-    color: rgba(48, 48, 48, 1);
     ;
 }
 
@@ -339,7 +340,6 @@ header {
     display: inline-block;
     padding: 0 8px;
     font-weight: 300;
-    color: rgba(48, 48, 48, 1);
     ;
 
 }
@@ -350,7 +350,7 @@ header {
     font-weight: 300;
     margin: 4px 8px;
     padding: 4px 8px;
-    color: #000;
+    color: rgba(253, 89, 31, 1);
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0);
     transition: 0.3s;
@@ -358,7 +358,7 @@ header {
 
 .back:hover {
     transition: opacity 0.3s ease-in-out;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(253, 89, 31, 0.25);
     /*border-radius: 4px;*/
 }
 
@@ -375,21 +375,6 @@ header {
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.block-type {
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 16px;
-    padding: 0 8px;
-    font-size: 1.75rem;
-    color: #000;
-    line-height: 1.5rem;
-    font-weight: 500;
-}
-
-.block-role {
-    padding: 0 8px;
-    font-weight: 300;
 }
 
 .section-image-1 {
@@ -469,7 +454,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-color: rgba(48, 48, 48, 1);
+    background-color: #082F7E;
 }
 
 .copyright {
@@ -498,11 +483,11 @@ footer {
     width: 72px;
     height: 4px;
     vertical-align: middle;
-    border-top: 1px solid black;
+    border-top: 1px solid rgba(253, 89, 31, 1);
 }
 
 .go-text {
-    color: #000;
+    color: rgba(253, 89, 31, 1);
     text-decoration: none;
     font-weight: 700;
     padding: 0 8px;
@@ -511,7 +496,7 @@ footer {
 }
 
 .go-text:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(253, 89, 31, 0.25);
     /*border-radius: 4px;*/
 }
 

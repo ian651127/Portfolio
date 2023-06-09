@@ -290,6 +290,7 @@ header {
     transition: opacity 0.3s ease-in-out;
     backdrop-filter: blur(8px);
 }
+
 .card-item-text {
     width: calc(100% - 16px);
     position: absolute;
@@ -302,7 +303,7 @@ header {
     text-align: center;
 }
 
-.card:hover .card-item {
+.card-image:hover .card-item {
     opacity: 1;
     cursor: pointer;
 }
@@ -406,6 +407,29 @@ header {
     padding: 0 8px;
     font-weight: 300;
 }
+
+
+.section-image-main {
+    vertical-align: top;
+    background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)2px, transparent 0, transparent 6px);
+    width: 100vw;
+    height: 960px;
+    background-attachment: fixed;
+
+
+
+}
+
+.section-image-main>img {
+    width: 100%;
+
+
+
+
+
+    /*border-radius: 8px;*/
+}
+
 
 .section-image-1 {
     vertical-align: top;
