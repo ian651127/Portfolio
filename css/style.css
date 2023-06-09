@@ -285,10 +285,10 @@ header {
     line-height: 1.5rem;
     font-weight: 700;
     padding: 16px;
-    background-color: rgba(253, 89, 31, 1);
+    background-color: rgba(253, 89, 31, 0.5);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    /* backdrop-filter: blur(8px); */
+    backdrop-filter: blur(4px);
 }
 
 .card-image:hover .card-item {
