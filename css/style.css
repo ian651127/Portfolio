@@ -375,6 +375,20 @@ header {
     margin-right: auto;
 }
 
+.section-image-main {
+    vertical-align: top;
+    width: 100%;
+    padding: 32px 0;
+    text-align: center;
+}
+
+.section-image-main>img {
+    width: 100%;
+    /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1); */
+    /*border-radius: 8px;*/
+}
+
+
 .section-image-1 {
     vertical-align: top;
     width: 100%;
@@ -408,19 +422,6 @@ header {
 }
 
 .section-image-app>img {
-    width: 90%;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
-    /*border-radius: 8px;*/
-}
-
-.section-image-gif {
-    vertical-align: top;
-    width: 100%;
-    padding: 32px 0;
-    text-align: center;
-}
-
-.section-image-gif>img {
     width: 90%;
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
     /*border-radius: 8px;*/
