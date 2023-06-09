@@ -125,6 +125,7 @@ header {
     padding: 0 8px;
     margin-bottom: 64px;
     color: #082F7E;
+    overflow: visible;
 }
 
 .block-label {
