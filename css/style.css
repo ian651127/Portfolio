@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    
 }
 
 ::selection {
@@ -68,6 +67,7 @@ header {
     border-bottom: 1px solid #082F7E;
     z-index: 999;
     /* backdrop-filter: blur(8px);*/
+    overflow: hidden;
 }
 
 .header-logo {
@@ -125,7 +125,6 @@ header {
     padding: 0 8px;
     margin-bottom: 64px;
     color: #082F7E;
-    overflow: visible;
 }
 
 .block-label {
@@ -147,6 +146,7 @@ header {
 .container {
     width: 100%;
     /*全螢幕寬*/
+    overflow: hidden;
 }
 
 .section-background-none {
@@ -163,6 +163,7 @@ header {
 .section {
     margin: 32px auto;
     max-width: 1408px;
+    overflow: hidden;
 }
 
 /*卡片過濾*/
@@ -366,6 +367,7 @@ header {
     justify-content: flex-start;
     margin: 32px auto;
     max-width: 1408px;
+    overflow: hidden;
 
 }
 
