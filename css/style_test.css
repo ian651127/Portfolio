@@ -379,7 +379,7 @@ header {
 
 .section-image-main {
     width: 100%;
-    height: 640px;
+    /* height: 640px; */
     padding: 32px 0;
     margin-bottom: 32px;
     background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1), rgba(8, 47, 126, 0.1)2px, transparent 0, transparent 6px);
@@ -395,16 +395,29 @@ header {
     /*border-radius: 8px;*/
 }
 
-/* 卡片RWD */
+/* Detal 主視覺底紋 RWD */
 @media screen and (max-width: 575px) {
+    .section-image-main {
+        height: 240px;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
     .section-image-main {
         height: 320px;
     }
+}
 
-    @media screen and (min-width: 576px) and (max-width: 767px) {
-        .section-image-main {
-            height: 320px;
-        }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .section-image-main {
+        height: 480px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-image-main {
+        height: 640px;
     }
 }
 
@@ -446,7 +459,7 @@ header {
     /* border-radius: 8px; */
 }
 
-/* Detail RWD */
+/* Detail 圖文 RWD */
 @media screen and (max-width: 575px) {
     .section-image-app {
         width: 50%;
