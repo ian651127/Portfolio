@@ -395,6 +395,18 @@ header {
     /*border-radius: 8px;*/
 }
 
+/* 卡片RWD */
+@media screen and (max-width: 575px) {
+    .section-image-main {
+        height: 320px;
+    }
+
+    @media screen and (min-width: 576px) and (max-width: 767px) {
+        .section-image-main {
+            height: 320px;
+        }
+    }
+}
 
 .section-image-1 {
     vertical-align: top;
