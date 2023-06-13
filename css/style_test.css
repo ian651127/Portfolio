@@ -393,7 +393,7 @@ header {
     transform: translate(-50%, -50%);
     object-fit: cover;
     /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1); */
-    border-radius: 4px;
+    /* border-radius: 4px; */
 }
 
 /* Detal 主視覺底紋 RWD */
