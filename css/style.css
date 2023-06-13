@@ -242,10 +242,9 @@ header {
     aspect-ratio: 16 / 9;
     /* 圖片超出容器部分隐藏 */
     background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
 }
 
-.card-image img {
+.card-image>img {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -254,6 +253,7 @@ header {
     /* 對位框座標改為中心點 */
     transform: translate(-50%, -50%);
     /* 圖片座標改為中心點 */
+    border-radius: 4px;
 }
 
 .card-body {
