@@ -393,7 +393,7 @@ header {
     transform: translate(-50%, -50%);
     object-fit: cover;
     /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1); */
-    /*border-radius: 8px;*/
+    border-radius: 4px;
 }
 
 /* Detal 主視覺底紋 RWD */
@@ -432,7 +432,7 @@ header {
 .section-image-1>img {
     width: 90%;
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25);
-    /*border-radius: 8px;*/
+    border-radius: 4px;
 }
 
 .section-image-2 {
@@ -445,7 +445,7 @@ header {
 .section-image-2>img {
     width: 90%;
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25);
-    /*border-radius: 8px;*/
+    border-radius: 4px;
 }
 
 .section-image-app {
