@@ -137,12 +137,6 @@ header {
     color: #082F7E;
 }
 
-.block-release {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    padding: 0 16px;
-}
-
 .container {
     width: 100%;
     /*全螢幕寬*/
@@ -373,6 +367,7 @@ header {
 }
 
 .section-text {
+    display: block;
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
