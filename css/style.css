@@ -166,7 +166,16 @@ header {
     justify-content: center;
     margin: 32px 0;
     text-align: center;
+    opacity: 1;
 }
+
+/* Filter RWD */
+@media screen and (max-width: 575px) {
+    .filter-list {
+        opacity: 0;
+    }
+}
+
 
 .filter-list>li {
     font-size: 1rem;
