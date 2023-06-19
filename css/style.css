@@ -170,11 +170,11 @@ header {
 }
 
 /* Filter RWD */
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
     .filter-list {
         opacity: 0;
     }
-}
+} */
 
 
 .filter-list>li {
