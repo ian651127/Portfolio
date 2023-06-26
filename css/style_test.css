@@ -156,7 +156,7 @@ header {
 
 .section-background {
     padding: 16px 0;
-    background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.05), rgba(8, 47, 126, 0.05)2px, transparent 0, transparent 6px);
+    background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1), rgba(8, 47, 126, 0.1)2px, transparent 0, transparent 6px);
     background-attachment: fixed;
 }
 
@@ -286,8 +286,8 @@ header {
     position: relative;
     top: 0;
     right: 0;
-    /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25);
-    border: 1px solid #082F7E; */
+    /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25); */
+    border: 1px solid #082F7E;
 
 }
 
@@ -402,7 +402,7 @@ header {
     /* height: 640px; */
     padding: 32px 0;
     margin-bottom: 32px;
-    background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.05)0, rgba(8, 47, 126, 0.05)2px, transparent 0, transparent 6px);
+    background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1)0, rgba(8, 47, 126, 0.1)2px, transparent 0, transparent 6px);
     background-attachment: fixed;
 }
 
