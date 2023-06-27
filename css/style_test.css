@@ -156,13 +156,13 @@ header {
 
 .section-background {
     padding: 16px 0;
-    background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1), rgba(8, 47, 126, 0.1)3px, transparent 0, transparent 6px);
+    background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1), rgba(8, 47, 126, 0.1)2px, transparent 0, transparent 6px);
     background-attachment: fixed;
 }
 
 .section {
     margin: 32px auto;
-    max-width: 1408px;
+    max-width: 1344px;
     overflow: hidden;
 }
 
@@ -402,7 +402,7 @@ header {
     /* height: 640px; */
     padding: 32px 0;
     margin-bottom: 32px;
-    background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1)0, rgba(8, 47, 126, 0.1)3px, transparent 0, transparent 6px);
+    background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1)0, rgba(8, 47, 126, 0.1)2px, transparent 0, transparent 6px);
     background-attachment: fixed;
 }
 
