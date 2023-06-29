@@ -275,19 +275,19 @@ header {
 }
 
 .card-label {
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border: 1px solid red;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    /* border: 1px solid blue; */
+    width: 112px;
+    height: 48px;
 }
 
 
 .card-label-svg {
-    position: relative;
-    top: 0;
-    right: 0;
+
     /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25); */
-    border: 1px solid #082F7E;
+    /* border: 1px solid #082F7E; */
 
 }
 
