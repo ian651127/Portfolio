@@ -156,12 +156,12 @@ header {
 
 .section-background {
     padding: 16px 0;
-    /* background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1), rgba(8, 47, 126, 0.1)2px, transparent 0, transparent 6px);
-    background-attachment: fixed; */
-    background-image: url(../images/bg_dot_blue.gif);
+    background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1), rgba(8, 47, 126, 0.1)2px, transparent 0, transparent 6px);
+    background-attachment: fixed;
+    /* background-image: url(../images/bg_dot_blue.gif);
     background-repeat: repeat;
     -webkit-animation: bgAnimation 10s infinite linear;
-    animation: bgAnimation 10s infinite linear;
+    animation: bgAnimation 10s infinite linear; */
 }
 
 .section {
