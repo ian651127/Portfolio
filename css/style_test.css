@@ -160,8 +160,8 @@ header {
     background-attachment: fixed; */
     background-image: url(../images/bg_dot_blue.gif);
     background-repeat: repeat;
-    -webkit-animation: section-background 10s infinite linear;
-    animation: section-background 10s infinite linear;
+    -webkit-animation: bgAnimation 10s infinite linear;
+    animation: bgAnimation 10s infinite linear;
 }
 
 .section {
