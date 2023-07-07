@@ -278,6 +278,23 @@ header {
     font-weight: 300;
 }
 
+.card-label {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    /* border: 1px solid blue; */
+    width: 112px;
+    height: 48px;
+    /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25); */
+}
+
+.card-label-svg {
+
+    /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25); */
+    /* border: 1px solid #082F7E; */
+
+}
+
 .card-item {
     position: absolute;
     top: 0;
