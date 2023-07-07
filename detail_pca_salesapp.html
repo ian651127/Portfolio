@@ -5,12 +5,30 @@
   <meta charset="UTF-8">
   <title>YU JEN CHANG PORTFPLIO</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link rel="icon" href="images/favicon.svg" sizes="any" type="image/svg+xml">
-  <script src="javascript/go.js"></script>
+  <meta name="apple-mobile-web-app-title" content="YU JEN CHANG PORTFPLIO">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;500;700&family=Poppins:wght@100;200;300;500;700&display=swap');
   </style>
+  <link href="css/style_test.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="images/favicon.svg" sizes="any" type="image/svg+xml">
+  <!-- 1.引入wow依赖的animate.css -->
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
+  <!-- 2.引入wow.js 文件 -->
+  <script type="text/javascript" src="javascript/wow.js"></script>
+  <!-- 3.now 对象 -->
+  <script type="text/javascript">
+    new WOW().init();
+   // 可选的参数
+   // wow = new WOW({
+   //     boxClass:     'wow', 		//WOW.js需要执行动画的元素的class
+   //     animateClass: 'animated',   //animation.css 动画的 class
+   //     offset:       0,            //距离可视区域多少开始执行动画
+   //     mobile:       true,  		//是否在移动设备上执行动画
+   //     live:         true        	//异步加载的内容是否有效
+   // })
+   // wow.init();
+  </script>
+  <script src="javascript/go.js"></script>
 </head>
 
 <body>
@@ -33,19 +51,19 @@
       <div class="section">
         <div class="section-title"><span id="Project-name"></span>PCA Life Sales APP</div>
         <div class="section-text">
-          <div class="row">
+          <div class="row wow animate__animated animate__fadeInRight">
             <div class="detail-key">Client </div>
             <div class="detail-value">PCA Life</div>
           </div>
-          <div class="row">
+          <div class="row wow animate__animated animate__fadeInRight">
             <div class="detail-key">Release </div>
             <div class="detail-value">2016</div>
           </div>
-          <div class="row">
+          <div class="row wow animate__animated animate__fadeInRight">
             <div class="detail-key">Type </div>
             <div class="detail-value">APP</div>
           </div>
-          <div class="row">
+          <div class="row wow animate__animated animate__fadeInRight">
             <div class="detail-key">Item</div>
             <div class="detail-value">Mockup</div>
           </div>
@@ -54,10 +72,14 @@
       <div class="section-detail">
         <div class="section-image-main"><img src="images/portfolio-pic/pca_salesapp/img_logo.png" alt="Detail-image">
         </div>
-        <div class="section-image-app"><img src="images/portfolio-pic/pca_salesapp/img_1.png" alt="Detail-image"></div>
-        <div class="section-image-app"><img src="images/portfolio-pic/pca_salesapp/img_2.png" alt="Detail-image"></div>
-        <div class="section-image-app"><img src="images/portfolio-pic/pca_salesapp/img_3.png" alt="Detail-image"></div>
-        <div class="section-image-app"><img src="images/portfolio-pic/pca_salesapp/img_4.png" alt="Detail-image"></div>
+        <div class="section-image-app wow animate__animated animate__fadeInRight"><img
+            src="images/portfolio-pic/pca_salesapp/img_1.png" alt="Detail-image"></div>
+        <div class="section-image-app wow animate__animated animate__fadeInRight"><img
+            src="images/portfolio-pic/pca_salesapp/img_2.png" alt="Detail-image"></div>
+        <div class="section-image-app wow animate__animated animate__fadeInRight"><img
+            src="images/portfolio-pic/pca_salesapp/img_3.png" alt="Detail-image"></div>
+        <div class="section-image-app wow animate__animated animate__fadeInRight"><img
+            src="images/portfolio-pic/pca_salesapp/img_4.png" alt="Detail-image"></div>
       </div>
       <div class="section">
         <div id="backtotop"><a class="go-text" onclick="scrollToPosition('Project-name')"> ↑ Back to Top</a>
