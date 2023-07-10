@@ -34,23 +34,29 @@
     <div class="header-icon"> <a onclick="location.href='https://www.linkedin.com/in/ian-chang-74263a76.html'"><img
           class="icon-in" src="images/img-icon-In.svg" alt="In"></a></div>
   </header>
+
   <div class="container">
     <div class="go"> <a class="go-text" onclick="scrollToPosition('prtfolio')">Portfolio</a>
       <div class="go-line"></div>
       <a class="go-text" onclick="scrollToPosition('about')">About</a>
     </div>
+
+    <!-- 作品區 -->
     <div class="section-background-none">
       <div class="section">
         <div class="section-title"><span id="prtfolio">Portfolio</span></div>
+
+        <!-- 作品過濾選單 -->
         <ul class="filter-list" onclick="updateLastSelected(event)">
-          <!-- 作品過濾選單 -->
           <li class="filter active" data-category="all">All</li>
           <li class="filter" data-category="website">Website</li>
           <li class="filter" data-category="app">APP</li>
           <li class="filter" data-category="brand">Brand</li>
           <li class="filter" data-category="exhibition">Exhibition</li>
         </ul>
-        <div class="card-list"><!-- 作品列表 -->
+
+        <!-- 作品列表 -->
+        <div class="card-list">
           <div class="card" data-aos="fade-up" data-category="website">
             <div class="card-image" onclick="location.href='detail_gorilla_uilibrary.html'"><img
                 src="images/portfolio-pic/gorilla_uilibrary/img_preview.png" alt="Image">
@@ -307,6 +313,8 @@
         </div>
       </div>
     </div>
+
+    <!-- 履歷區 -->
     <div class="section-background">
       <div class="section">
         <div class="section-title"><span id="about"></span>About</div>
@@ -359,6 +367,12 @@
   <footer>
     <div class="copyright">Copyright © 2014 Yu Jen Chang. All rights reserved.</div>
   </footer>
+
+  <!-- 3.now 对象 -->
+  <script type="text/javascript">
+    AOS.init();
+  </script>
+
   <script><!-- 作品過濾JS -->
     function filterCards(category) {
       const cards = document.querySelectorAll('.card');
@@ -380,10 +394,6 @@
         filterCards(category);
       });
     });
-  </script>
-  <!-- 3.now 对象 -->
-  <script type="text/javascript">
-    AOS.init();
   </script>
 </body>
 
