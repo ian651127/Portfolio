@@ -1972,7 +1972,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInRight {
+.animate__fadeInUp {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
 }
@@ -2002,7 +2002,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInRightBig {
+.animate__fadeInUpBig {
   -webkit-animation-name: fadeInRightBig;
   animation-name: fadeInRightBig;
 }
