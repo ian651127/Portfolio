@@ -137,7 +137,9 @@ header {
     color: #082F7E;
 }
 
-.block-label-svg {}
+.block-label-svg-g {}
+
+.block-label-svg-e {}
 
 .container {
     width: 100%;
