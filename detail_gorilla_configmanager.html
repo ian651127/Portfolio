@@ -11,23 +11,14 @@
   </style>
   <link href="css/style_test.css" rel="stylesheet" type="text/css">
   <link rel="icon" href="images/favicon.svg" sizes="any" type="image/svg+xml">
+
   <!-- 1.引入wow依赖的animate.css -->
-  <link href="css/animate.css" rel="stylesheet" type="text/css">
+  <link href="css/aos.css" rel="stylesheet" type="text/css">
   <!-- 2.引入wow.js 文件 -->
-  <script type="text/javascript" src="javascript/wow.js"></script>
-  <!-- 3.now 对象 -->
-  <script type="text/javascript">
-    new WOW().init();
-   // 可选的参数
-   // wow = new WOW({
-   //     boxClass:     'wow', 		//WOW.js需要执行动画的元素的class
-   //     animateClass: 'animated',   //animation.css 动画的 class
-   //     offset:       0,            //距离可视区域多少开始执行动画
-   //     mobile:       true,  		//是否在移动设备上执行动画
-   //     live:         true        	//异步加载的内容是否有效
-   // })
-   // wow.init();
-  </script>
+  <script type="text/javascript" src="javascript/aos.js"></script>
+
+
+  <!-- 捲動到座標 -->
   <script src="javascript/go.js"></script>
 </head>
 
@@ -53,39 +44,39 @@
       <div class="section">
         <div class="section-title"><span id="Project-name"></span>Gorilla Configuration Manager</div>
         <div class="section-text">
-          <div class="row wow animate__animated animate__fadeInUp">
+          <div class="row" data-aos="fade-up">
             <div class="detail-key">Client </div>
             <div class="detail-value">Gorilla</div>
           </div>
-          <div class="row wow animate__animated animate__fadeInUp">
+          <div class="row" data-aos="fade-up">
             <div class="detail-key">Release </div>
             <div class="detail-value">2019</div>
           </div>
-          <div class="row wow animate__animated animate__fadeInUp">
+          <div class="row" data-aos="fade-up">
             <div class="detail-key">Type </div>
             <div class="detail-value">Web Application</div>
           </div>
-          <div class="row wow animate__animated animate__fadeInUp">
+          <div class="row" data-aos="fade-up">
             <div class="detail-key">Item</div>
             <div class="detail-value">Functional Map | UI Flow | Mockup</div>
           </div>
         </div>
       </div>
       <div class="section-detail">
-        <div class="section-image-1 wow animate__animated animate__fadeInUp"><img
-            src="images/portfolio-pic/gorilla_configmanager/1.png" alt="Detail-image">
+        <div class="section-image-1" data-aos="fade-up"><img src="images/portfolio-pic/gorilla_configmanager/1.png"
+            alt="Detail-image">
         </div>
-        <div class="section-image-1 wow animate__animated animate__fadeInUp"><img
-            src="images/portfolio-pic/gorilla_configmanager/2.png" alt="Detail-image">
+        <div class="section-image-1" data-aos="fade-up"><img src="images/portfolio-pic/gorilla_configmanager/2.png"
+            alt="Detail-image">
         </div>
-        <div class="section-image-1 wow animate__animated animate__fadeInUp"><img
-            src="images/portfolio-pic/gorilla_configmanager/3.png" alt="Detail-image">
+        <div class="section-image-1" data-aos="fade-up"><img src="images/portfolio-pic/gorilla_configmanager/3.png"
+            alt="Detail-image">
         </div>
-        <div class="section-image-1 wow animate__animated animate__fadeInUp"><img
-            src="images/portfolio-pic/gorilla_configmanager/4.png" alt="Detail-image">
+        <div class="section-image-1" data-aos="fade-up"><img src="images/portfolio-pic/gorilla_configmanager/4.png"
+            alt="Detail-image">
         </div>
-        <div class="section-image-1 wow animate__animated animate__fadeInUp"><img
-            src="images/portfolio-pic/gorilla_configmanager/5.png" alt="Detail-image">
+        <div class="section-image-1" data-aos="fade-up"><img src="images/portfolio-pic/gorilla_configmanager/5.png"
+            alt="Detail-image">
         </div>
       </div>
       <div class="section">
@@ -96,6 +87,10 @@
     <footer>
       <div class="copyright">Copyright © 2014 Yu Jen Chang. All rights reserved.</div>
     </footer>
+    <!-- 3.now 对象 -->
+    <script type="text/javascript">
+      AOS.init();
+    </script>
 </body>
 
 </html>
