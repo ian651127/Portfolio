@@ -137,6 +137,8 @@ header {
     color: #082F7E;
 }
 
+.block-label-svg {}
+
 .container {
     width: 100%;
     /*全螢幕寬*/
