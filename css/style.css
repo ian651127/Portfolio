@@ -413,7 +413,7 @@ header {
     background-attachment: fixed;
 
     /* 方格線 */
-    background-image: linear-gradient(rgba(7, 47, 126, 0.2) 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, rgba(7, 47, 126, 0.2) 0.6000000000000001px, #f3f3f3 0.6000000000000001px);
+    background-image: linear-gradient(rgba(7, 47, 126, 0.1) 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, rgba(7, 47, 126, 0.1) 0.6000000000000001px, #f3f3f3 0.6000000000000001px);
     background-size: 12px 12px;
 
     /* 斜線 */
@@ -421,8 +421,8 @@ header {
     background-image: repeating-linear-gradient(45deg, rgba(8, 47, 126, 0.2) 0, rgba(8, 47, 126, 0.2) 0.4px, #f3f3f3 0, #f3f3f3 50%); */
 
     /* 方格點 */
-    background-image: radial-gradient(rgba(8, 47, 126, 0.2) 0.8px, #f3f3f3 0.8px);
-    background-size: 16px 16px;
+    /* background-image: radial-gradient(rgba(8, 47, 126, 0.2) 0.8px, #f3f3f3 0.8px);
+    background-size: 16px 16px; */
 
 
 }
