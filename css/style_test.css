@@ -165,8 +165,17 @@ header {
     background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px; */
 
     /* 斜線 */
-    background-size: 4px 4px;
-    background-image: repeating-linear-gradient(45deg, rgba(8, 47, 126, 0.2) 0, rgba(8, 47, 126, 0.2) 0.4px, #f3f3f3 0, #f3f3f3 50%);
+    /* background-size: 4px 4px;
+    background-image: repeating-linear-gradient(45deg, rgba(8, 47, 126, 0.2) 0, rgba(8, 47, 126, 0.2) 0.4px, #f3f3f3 0, #f3f3f3 50%); */
+
+    /* 方格紙 */
+    background-image: linear-gradient(rgba(7, 47, 126, 0.2) 1.4000000000000001px, transparent 1.4000000000000001px), linear-gradient(90deg, rgba(7, 47, 126, 0.2) 1.4000000000000001px, transparent 1.4000000000000001px), linear-gradient(rgba(7, 47, 126, 0.2) 0.7000000000000001px, transparent 0.7000000000000001px), linear-gradient(90deg, rgba(7, 47, 126, 0.2) 0.7000000000000001px, #f3f3f3 0.7000000000000001px);
+    background-size: 35px 35px, 35px 35px, 7px 7px, 7px 7px;
+    background-position: -1.4000000000000001px -1.4000000000000001px, -1.4000000000000001px -1.4000000000000001px, -0.7000000000000001px -0.7000000000000001px, -0.7000000000000001px -0.7000000000000001px;
+
+    /* 十字點 */
+    /* background: radial-gradient(circle, transparent 20%, #f3f3f3 20%, #f3f3f3 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #f3f3f3 20%, #f3f3f3 80%, transparent 80%, transparent) 10px 10px, linear-gradient(rgba(8, 47, 26, 0.2) 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, rgba(8, 47, 26, 0.2) 0.8px, #f3f3f3 0.8px) -0.4px 0;
+    background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px; */
 }
 
 .section {
@@ -412,8 +421,16 @@ header {
     /* height: 640px; */
     padding: 32px 0;
     margin-bottom: 32px;
-    background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1)0, rgba(8, 47, 126, 0.1)2px, transparent 0, transparent 6px);
+    /* background: repeating-linear-gradient(-45deg, rgba(8, 47, 126, 0.1)0, rgba(8, 47, 126, 0.1)2px, transparent 0, transparent 6px); */
     background-attachment: fixed;
+    /* 方格線 */
+    background-image: linear-gradient(rgba(7, 47, 126, 0.2) 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, rgba(7, 47, 126, 0.2) 0.6000000000000001px, #f3f3f3 0.6000000000000001px);
+    background-size: 12px 12px;
+
+    /* 斜線 */
+    /* background-size: 4px 4px;
+    background-image: repeating-linear-gradient(45deg, rgba(8, 47, 126, 0.2) 0, rgba(8, 47, 126, 0.2) 0.4px, #f3f3f3 0, #f3f3f3 50%); */
+
 }
 
 .section-image-main>img {
