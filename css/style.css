@@ -289,13 +289,20 @@ header {
     top: 8px;
     right: 8px;
     /* border: 1px solid blue; */
-    width: 112px;
+    width: 128px;
     height: 48px;
     /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25); */
 }
 
-.card-label-image {
+.card-label>img {
     width: 100%;
+    position: absolute;
+    top: 50%;
+    /* 對位框座標改為中心點 */
+    left: 50%;
+    /* 對位框座標改為中心點 */
+    transform: translate(-50%, -50%);
+    /* 圖片座標改為中心點 */
     /* box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25); */
     /* border: 1px solid #082F7E; */
 
