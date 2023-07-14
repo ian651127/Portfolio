@@ -119,12 +119,42 @@ header {
 
 .section-title {
     font-family: 'Poppins', sans-serif;
-    font-size: 4rem;
-    font-weight: 100;
-    line-height: 4rem;
     padding: 0 8px;
     margin-bottom: 64px;
     color: #082F7E;
+}
+
+/* section-title RWD */
+@media screen and (max-width: 575px) {
+    .section-title {
+        font-size: 4rem;
+        font-weight: 100;
+        line-height: 4rem;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .section-title {
+        font-size: 4rem;
+        font-weight: 100;
+        line-height: 4rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .section-title {
+        font-size: 6rem;
+        font-weight: 100;
+        line-height: 6rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-title {
+        font-size: 8rem;
+        font-weight: 100;
+        line-height: 8rem;
+    }
 }
 
 .block-label {
