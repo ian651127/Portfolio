@@ -82,10 +82,48 @@
   <footer>
     <div class="copyright">Copyright © 2014 Yu Jen Chang. All rights reserved.</div>
   </footer>
+
+  <div id="loading">
+    <div class="loading-image"><img src="images/loading.gif" alt="loading">
+      <!-- <div class="loading-text">Loading...</div> -->
+    </div>
+  </div>
+
+
   <!-- 3.now 对象 -->
   <script type="text/javascript">
     AOS.init();
   </script>
+
+  <script>
+    // JavaScript程式碼
+    // 顯示loading元素
+    function showLoading() {
+      document.getElementById('loading').style.display = 'block';
+    }
+
+    // 隱藏loading元素
+    function hideLoading() {
+      document.getElementById('loading').style.display = 'none';
+    }
+
+    // 在頁面載入完成後觸發的函式
+    function pageLoaded() {
+      // 隱藏loading元素
+      hideLoading();
+
+      // 在此處撰寫其他程式碼或操作
+    }
+
+    // 在頁面載入期間顯示loading元素
+    showLoading();
+
+    // 在頁面載入完成後觸發該函式
+    window.onload = pageLoaded;
+  </script>
+
+
+
 </body>
 
 </html>

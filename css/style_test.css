@@ -562,6 +562,38 @@ header {
     }
 }
 
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+    z-index: 9999;
+}
+
+.loading-image {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.05); */
+    /* border: 1px solid red; */
+}
+
+.loading-image>img {
+    width: 48px;
+    position: absolute;
+    top: 50%;
+    /* 對位框座標改為中心點 */
+    left: 50%;
+    /* 對位框座標改為中心點 */
+    transform: translate(-50%, -50%);
+    /* 圖片座標改為中心點 */
+    border-radius: 4px;
+}
+
+
+
 footer {
     width: 100%;
     /*全螢幕寬*/
