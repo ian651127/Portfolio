@@ -535,7 +535,7 @@ header {
     }
 }
 
-.loading-mask {
+.loading-wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -547,8 +547,10 @@ header {
 
 .loading-image {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
+    width: 100%;
+    height: 100%;
     /* background-color: rgba(0, 0, 0, 0.05); */
     /* border: 1px solid red; */
 }
