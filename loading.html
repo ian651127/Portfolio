@@ -17,18 +17,33 @@
   <link href="css/aos.css" rel="stylesheet" type="text/css">
   <!-- 2.引入wow.js 文件 -->
   <script type="text/javascript" src="javascript/aos.js"></script>
-
-
-
 </head>
 
 <body>
 
   <div class="loading-wrapper">
-    <div class="loading-image"><img src="images/loading.gif" alt="loading">
+    <div class="loading-image"><img src="images/loading-onece.gif" alt="loading">
       <!-- <div class="loading-text">Loading...</div> -->
     </div>
   </div>
+
+  <script>
+    // JavaScript代碼，用於實現動畫和頁面跳轉
+    document.addEventListener('DOMContentLoaded', function () {
+      // 獲取動畫元素
+      var animationElement = document.getElementById('animation-text');
+
+      // 設定動畫播放時間為5-10秒
+      var animationDuration = Math.floor(Math.random() * 6) + 5; // 生成5-10之間的隨機數
+
+      // 播放動畫
+      setTimeout(function () {
+        // 在動畫播放完成後，跳轉到索引頁面（這裡假設索引頁面的文件名為index.html）
+        window.location.href = 'index.html';
+      }, animationDuration * 250); // 將秒數轉換為毫秒數
+    });
+  </script>
+
 </body>
 
 </html>
