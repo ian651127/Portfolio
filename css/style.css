@@ -348,6 +348,14 @@ header {
     background-color: rgba(33, 37, 47, 0.05);
 }
 
+.highlight-label {
+    background: rgba(235, 235, 235, 1);
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 4px;
+    line-height: 32px;
+}
+
 .index-key {
     display: inline-block;
     padding: 0 8px;
