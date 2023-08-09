@@ -144,12 +144,12 @@ header {
 }
 
 .section-background-none {
-    padding: 16px 0;
+    padding: 32px 0;
     /* border:1px solid red; */
 }
 
 .section-background {
-    padding: 16px 0;
+    padding: 32px 0;
     background-attachment: fixed;
     background: #ffffff;
     /* 方格線 */
@@ -430,7 +430,7 @@ header {
     background-attachment: fixed;
 
     /* 方格線 */
-    background-image: linear-gradient(rgba(204, 204, 204, 1) 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, rgba(204, 204, 204, 1) 0.6000000000000001px, #f3f3f3 0.6000000000000001px);
+    background-image: linear-gradient(rgba(235, 235, 235, 1) 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, rgba(235, 235, 235, 1) 0.6000000000000001px, #ffffff 0.6000000000000001px);
     background-size: 12px 12px;
 
     /* 斜線 */
