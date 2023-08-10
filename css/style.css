@@ -15,7 +15,7 @@
 body {
     font-family: 'Noto Sans TC', sans-serif;
     color: #808080;
-    background-color: #f3f3f3;
+    background-color: #f6f6f6;
     font-size: 16px;
     font-weight: 300;
     width: 100vw;
@@ -153,12 +153,12 @@ header {
     background-attachment: fixed;
     background: #ffffff;
     /* 方格線 */
-    /* background-image: linear-gradient(rgba(7, 47, 126, 0.2) 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, rgba(7, 47, 126, 0.2) 0.6000000000000001px, #f3f3f3 0.6000000000000001px);
+    /* background-image: linear-gradient(rgba(7, 47, 126, 0.2) 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, rgba(7, 47, 126, 0.2) 0.6000000000000001px, #f6f6f6 0.6000000000000001px);
     background-size: 12px 12px; */
 
     /* 斜線 */
     /* background-size: 4px 4px;
-    background-image: repeating-linear-gradient(45deg, rgba(33, 37, 47, 0.2) 0, rgba(33, 37, 47, 0.2) 0.4px, #f3f3f3 0, #f3f3f3 50%); */
+    background-image: repeating-linear-gradient(45deg, rgba(33, 37, 47, 0.2) 0, rgba(33, 37, 47, 0.2) 0.4px, #f6f6f6 0, #f6f6f6 50%); */
 }
 
 .section {
@@ -433,10 +433,10 @@ header {
 
     /* 斜線 */
     /* background-size: 4px 4px;
-    background-image: repeating-linear-gradient(45deg, rgba(8, 47, 126, 0.2) 0, rgba(8, 47, 126, 0.2) 0.4px, #f3f3f3 0, #f3f3f3 50%); */
+    background-image: repeating-linear-gradient(45deg, rgba(8, 47, 126, 0.2) 0, rgba(8, 47, 126, 0.2) 0.4px, #f6f6f6 0, #f6f6f6 50%); */
 
     /* 方格點 */
-    /* background-image: radial-gradient(rgba(33, 37, 47, 0.2) 0.8px, #f3f3f3 0.8px);
+    /* background-image: radial-gradient(rgba(33, 37, 47, 0.2) 0.8px, #f6f6f6 0.8px);
     background-size: 16px 16px; */
 
 
