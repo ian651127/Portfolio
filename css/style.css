@@ -550,11 +550,12 @@ header {
     width: 100%;
     height: 100%;
     /* z-index: 9999; */
-    background: linear-gradient(-45deg, #21252F, #2d60c6);
+    background: #21252F;
+    /* background: linear-gradient(-45deg, #21252F, #21252F, #345493);
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
-    height: 100%;
-    /* border:1px solid red; */
+    height: 100%; */
+
 }
 
 @keyframes gradient {
